@@ -1,5 +1,12 @@
 # neo4cl - a CL library for interacting with Neo4J
 
+## DEPRECATED VERSION
+
+This branch is no longer actively maintained, but may be useful to somebody using an older version of Neo4j.
+
+As always, pull-requests are welcome.
+
+
 ## Short description:
 
 From the [Neo4J website](http://neo4j.com/): "Neo4j is a highly scalable native graph database."
@@ -24,13 +31,18 @@ Neo4CL is very simple library that sends Cypher queries to a Neo4J server, and d
 - any kind of object-graph mapping.
 
 
+## Compatibility
+
+### Neo4j versions
+
+3.5.3
+
+
 ### What it runs on
 
-It's been tested so far on
+It's developed and tested on SBCL.
 
-- sbcl
-- ccl
-- ccl64
+The maintainer hasn't had the time to test it on other implementations, but well-formatted pull-requests are always welcome.
 
 
 ### Dependencies
